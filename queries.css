@@ -1,0 +1,99 @@
+/* .........
+      For mobile devices
+      ................. */
+
+@media screen and (max-width:575px) {
+
+    /* header Queries */
+    .header_main {
+        display: block;
+        width: 100%;
+    }
+
+    .left_header {
+        width: 100%;
+    }
+
+    .header_title {
+        font-size: 37px;
+    }
+
+    .right_header img {
+        width: 100%;
+        height: unset;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .right_header {
+        width: 100%;
+    }
+
+
+    /* player/main area queries */
+    .players {
+        display: block;
+    }
+
+    .player {
+        height: unset;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .player_profile {
+        height: unset;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .player_profile img {
+        height: unset;
+        width: 93%;
+        padding-left: 2px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* container-bonus area queries */
+    .container_left {
+        width: 100%;
+        margin-left: unset;
+        margin-bottom: 15px;
+    }
+
+    .calender_detail {
+        width: 100%;
+    }
+
+    .calender {
+        grid-gap: 5px;
+    }
+
+
+    /* footer area queries */
+    .logo img {
+        width: 74%;
+        height: unset;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .fab {
+        height: 37px;
+        width: 35px;
+    }
+
+    .copyright_detail {
+        font-size: 14px;
+    }
+
+
+}
